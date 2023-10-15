@@ -1,0 +1,108 @@
+.animation {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    z-index: -1;
+    height: 100%;
+    position: absolute;
+    width: 335px;
+    left: 40%;
+    justify-content: space-between;
+    
+    .firstCol, .secondCol, .thirdCol {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        gap: 20px;
+        
+    }
+    .firstCol {
+        opacity: 0.3;
+        animation: moveFirst 5s infinite linear;
+    }
+    .secondCol {
+        opacity: 0.7;
+        left: 35%;
+        animation: moveSecond 5s infinite linear;
+    }
+    .thirdCol {
+        opacity: 0.5;
+        right: 0;
+        animation: moveFirst 10s infinite linear;
+       
+    }
+}
+
+@keyframes moveFirst {
+    0% {
+        top: -600px;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+@keyframes moveSecond {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: -605px;
+    }
+}
+
+@keyframes moveFirstAdaptive {
+    0% {
+        left: 1500px;
+        
+    }
+    100% {
+        left: 900px;
+    }
+}
+
+@keyframes moveSecondAdaptive {
+    0% {
+        left: 350px;
+    }
+    100% {
+        left: 960px;
+    }
+}
+
+@keyframes moveThirdAdaptive {
+    0% {
+        left: 400px;
+    }
+    100% {
+        left: -200px;
+       
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .animation {
+        position: relative;
+        left: 0;
+        width: 100%;
+       .firstCol, .secondCol, .thirdCol {
+            transform: rotate(90deg);
+            position: relative;
+       }
+        .firstCol {
+            top: -110px;
+            animation: moveFirstAdaptive 5s infinite linear;
+        }
+        .secondCol {
+           left: 950px;
+           animation: moveSecondAdaptive 5s infinite linear;
+        }
+        .thirdCol {
+            top: 110px;
+            animation: moveThirdAdaptive 10s infinite linear;
+        }
+    }
+}
+
+

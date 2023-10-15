@@ -1,0 +1,113 @@
+.header {
+    width: 85%;
+    margin: 0 auto;
+    border: 4px solid #478BF9;
+    border-radius: 64px;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #110A1D;
+    padding: 30px 0;
+    .nav {
+        width: 572px;
+        display: flex;
+        justify-content: space-between;
+        a {
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+        a:hover {
+            color: #478BF9;
+            text-decoration: underline;
+        }
+    }
+    .btns {
+        position: absolute;
+        right: 48px;
+        
+        display: flex;
+        gap: 14px;
+        .btn {
+            background-color: #478BF9;
+            border-color:   rgba($color: #000000, $alpha: 0);
+        }
+        .btn_menu {
+            display: none;
+        }
+        button, .specButton {
+            cursor: pointer;
+            background-color:   rgba($color: #000000, $alpha: 0);
+            color: #FFFFFF;
+            border: 2px solid #9DADF2;
+            padding: 14px;
+            text-transform: uppercase;
+            border-radius: 24px;
+            display: flex;
+            align-items: center;
+            font-family: 'Lexend', sans-serif;
+            font-size: 16px;
+            
+            .lang {
+                padding-right: 8px;
+            }
+        }
+        button:hover {
+            border-color: gold;
+
+        }
+        
+        
+    }
+   
+}
+
+@media (max-width: 1500px) {
+    .header {
+        justify-content: space-evenly;
+        
+        .btns {
+            position: static;
+        }
+    }
+    
+}
+
+@media (max-width: 1200px) {
+    .header {
+        
+        justify-content: flex-end;
+        padding: 10px 14px;
+        border: 2px solid #478BF9;
+        .nav {
+            display: none;
+        }
+        .btns {
+            gap: 8px;
+            button {
+                display: none;
+            }
+            .btn_lang {
+                display: flex;
+               
+                padding: 8px;
+                span {
+                    display: none;
+                }
+                img {
+                    padding: 0;
+                    width: 20px;
+                    height: 20px;
+                    text-align: center;
+                }
+            }
+            .btn_menu {
+                display: block;
+                border: none;
+                padding: 0;
+            }
+        }
+    }
+}
+
