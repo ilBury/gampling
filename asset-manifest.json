@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/gampling/static/css/main.880fa72d.css",
-    "main.js": "/gampling/static/js/main.fd283671.js",
+    "main.css": "/gampling/static/css/main.59e41c72.css",
+    "main.js": "/gampling/static/js/main.5c48b060.js",
     "static/media/SoccerWhite.svg": "/gampling/static/media/SoccerWhite.130ad4ddc9211ee6232566dd4df57cb6.svg",
     "static/media/Soccer.svg": "/gampling/static/media/Soccer.331b59ee838c90778b86bd505c520a7e.svg",
     "static/media/Crown.svg": "/gampling/static/media/Crown.0a52158256f8dc1a3696c2ab74c7c269.svg",
+    "static/media/WorldHorizontal.svg": "/gampling/static/media/WorldHorizontal.e797360e3531703e4d1567a4eeaea3df.svg",
     "static/media/World.svg": "/gampling/static/media/World.3c6cd87fee33438cfcfce389646028f8.svg",
     "static/media/vk.svg": "/gampling/static/media/vk.444dfaf4ae00ddfbaa70e0d64c574d9f.svg",
     "static/media/Mblue.svg": "/gampling/static/media/Mblue.2dff0d8ecec9aec34155a55e6a0ae3e2.svg",
     "static/media/M.svg": "/gampling/static/media/M.0396857e4229c8e5240eee61700a5528.svg",
     "static/media/Shield.svg": "/gampling/static/media/Shield.ca8de64f9ad9ff709a8b6dea82bc0d6c.svg",
     "static/media/dollar.svg": "/gampling/static/media/dollar.4671566d20353a8ada41a565446cc433.svg",
+    "static/media/dollarHorizontal.svg": "/gampling/static/media/dollarHorizontal.8ce53e7fc93f0bae13e431f1619b1d87.svg",
     "static/media/planetLenguage.svg": "/gampling/static/media/planetLenguage.78199e962eb5ba2488021589fe0d6e63.svg",
     "static/media/Timer.svg": "/gampling/static/media/Timer.9cb0c98399716110080bb2cf6e489a65.svg",
     "static/media/instagram.svg": "/gampling/static/media/instagram.04b10c9c94e70b9f4b121f496f156cd1.svg",
@@ -24,11 +26,11 @@
     "index.html": "/gampling/index.html",
     "static/media/Close.svg": "/gampling/static/media/Close.3cc2b021e0d9b9a4ed50e96087bcfc0b.svg",
     "static/media/facebook.svg": "/gampling/static/media/facebook.a1886e29c5bd00027d713b17f3f6de42.svg",
-    "main.880fa72d.css.map": "/gampling/static/css/main.880fa72d.css.map",
-    "main.fd283671.js.map": "/gampling/static/js/main.fd283671.js.map"
+    "main.59e41c72.css.map": "/gampling/static/css/main.59e41c72.css.map",
+    "main.5c48b060.js.map": "/gampling/static/js/main.5c48b060.js.map"
   },
   "entrypoints": [
-    "static/css/main.880fa72d.css",
-    "static/js/main.fd283671.js"
+    "static/css/main.59e41c72.css",
+    "static/js/main.5c48b060.js"
   ]
 }
