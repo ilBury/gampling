@@ -80,6 +80,34 @@
     }
 }
 
+@keyframes moveFirstLittle {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: -340px;
+    }
+}
+
+@keyframes moveSecondLittle {
+    0% {
+        left: -1340px;
+        
+    }
+    100% {
+        left: -1000px;
+    }
+}
+
+@keyframes moveThirdLittle {
+    0% {
+        left: -2000px;  
+    }
+    100% {
+        left: -2340px;
+    }
+}
+
 
 @media (max-width: 1200px) {
     .animation {
@@ -102,6 +130,34 @@
             top: 110px;
             animation: moveThirdAdaptive 10s infinite linear;
         }
+    }
+}
+@media (max-width: 500px) {
+    .animation {
+        padding: 33px 0;
+        .firstCol, .secondCol, .thirdCol {
+            height: 50px;
+            flex-direction: row;
+            transform: rotate(0deg);
+            .specialIcon {
+                width: 50px;
+                height: 50px;
+            }
+        }
+        .firstCol{
+            top: 0;
+            animation: moveFirstLittle 5s infinite linear;
+        }
+        .secondCol {
+            top: 60px;
+            animation: moveSecondLittle 5s infinite linear;
+        }
+        .thirdCol {
+            top: 120px;
+            animation: moveThirdLittle 10s infinite linear;
+        }
+       
+
     }
 }
 

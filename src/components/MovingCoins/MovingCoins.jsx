@@ -9,6 +9,8 @@ import soccerWhite from '../../images/SoccerWhite.svg';
 import world from '../../images/World.svg';
 import timer from '../../images/Timer.svg';
 import crown from '../../images/Crown.svg';
+import dollarHorizontal from '../../images/dollarHorizontal.svg';
+import worldHorizontal from '../../images/WorldHorizontal.svg';
 
 function MovingCoins() {
 
@@ -21,12 +23,21 @@ function MovingCoins() {
             
             <div className={styles.firstCol}>
                 {firstImages.map((el, id) => {
+
                     return (
-                        <img 
-                            src={el} 
-                            key={id} 
-                            alt='#' 
-                        />
+                        el === dollar ? 
+                            <picture key={id} >
+                                <source srcSet={dollarHorizontal} media='(max-width: 500px)'  />
+                                <source srcSet={el} />
+                                <img src={el}  alt="#"  />
+                            </picture> :
+                            <img 
+                                src={el} 
+                                key={id}                  
+                                alt='#' 
+                                className={styles.specialIcon}
+                            />
+                        
                     )
                 })}
             </div>
@@ -34,10 +45,17 @@ function MovingCoins() {
             <div className={styles.secondCol}>
                 {secondImages.map((el, id) => {
                     return (
-                        <img
+                        el === world ? 
+                        <picture key={id} >
+                            <source srcSet={worldHorizontal} media='(max-width: 500px)'  />
+                            <source srcSet={el} />
+                            <img src={el}  alt="#"  />
+                        </picture> :
+                        <img 
                             src={el} 
-                            key={id} 
+                            key={id}                  
                             alt='#' 
+                            className={styles.specialIcon}
                         />
                     )
                 })}
@@ -46,14 +64,21 @@ function MovingCoins() {
             <div className={styles.thirdCol}>
                 {thirdImages.map((el, id) => {
                     return (
-                        <img 
-                            style={el === dollar ? 
-                                {'filter': 'invert(94%) sepia(10%) saturate(1396%) hue-rotate(184deg) brightness(101%) contrast(113%)'}
-                                : {'filter': 'none'}} 
-                            src={el} 
-                            key={id} 
-                            alt='#' 
-                        />
+                        el === dollar ? 
+                            <picture key={id} >
+                                <source srcSet={dollarHorizontal} media='(max-width: 500px)'  />
+                                <source srcSet={el} />
+                                <img src={el}  alt="#"  />
+                            </picture> :
+                            <img 
+                                style={el === dollar ? 
+                                    {'filter': 'invert(94%) sepia(10%) saturate(1396%) hue-rotate(184deg) brightness(101%) contrast(113%)'}
+                                    : {'filter': 'none'}} 
+                                src={el} 
+                                className={styles.specialIcon}
+                                key={id} 
+                                alt='#' 
+                            />
                     )
                 })}
             </div>   
