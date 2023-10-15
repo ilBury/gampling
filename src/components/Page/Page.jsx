@@ -26,7 +26,7 @@ function Page({value}) {
                 <div className={styles.blur}></div>
 
                 <Blog />
-                <div className={styles.glareRightBottom}></div>
+                
                     
             </div>
 

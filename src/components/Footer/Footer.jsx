@@ -26,6 +26,7 @@ function Footer({value}) {
 
     return (
         <footer style={value ? {'display': 'none'} : {'display': 'flex'}} className={styles.footer}>
+            <div className={styles.glareRightBottom}></div>
             <div className={styles.container}>
                 <div className={styles.nav}>
                     <a href="/#">
