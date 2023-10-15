@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gampling/static/css/main.013d9db7.css",
-    "main.js": "/gampling/static/js/main.dc338781.js",
+    "main.css": "/gampling/static/css/main.880fa72d.css",
+    "main.js": "/gampling/static/js/main.fd283671.js",
     "static/media/SoccerWhite.svg": "/gampling/static/media/SoccerWhite.130ad4ddc9211ee6232566dd4df57cb6.svg",
     "static/media/Soccer.svg": "/gampling/static/media/Soccer.331b59ee838c90778b86bd505c520a7e.svg",
     "static/media/Crown.svg": "/gampling/static/media/Crown.0a52158256f8dc1a3696c2ab74c7c269.svg",
@@ -24,11 +24,11 @@
     "index.html": "/gampling/index.html",
     "static/media/Close.svg": "/gampling/static/media/Close.3cc2b021e0d9b9a4ed50e96087bcfc0b.svg",
     "static/media/facebook.svg": "/gampling/static/media/facebook.a1886e29c5bd00027d713b17f3f6de42.svg",
-    "main.013d9db7.css.map": "/gampling/static/css/main.013d9db7.css.map",
-    "main.dc338781.js.map": "/gampling/static/js/main.dc338781.js.map"
+    "main.880fa72d.css.map": "/gampling/static/css/main.880fa72d.css.map",
+    "main.fd283671.js.map": "/gampling/static/js/main.fd283671.js.map"
   },
   "entrypoints": [
-    "static/css/main.013d9db7.css",
-    "static/js/main.dc338781.js"
+    "static/css/main.880fa72d.css",
+    "static/js/main.fd283671.js"
   ]
 }
